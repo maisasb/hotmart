@@ -1,0 +1,50 @@
+.mbottom {
+	margin-bottom: 10px;
+}
+.gritter {
+	background: black;
+}
+.login {
+	 margin-top: 100px;
+}
+.login>.wrapper {
+	background: #f04e23;
+    border-radius: 3px;
+    max-width: 420px;
+    padding: 30px 38px 66px;
+    margin: 0 auto;
+}
+.login .titulo{
+	text-align: center;
+}
+.login .titulo>h3{
+	color:#ffffff;
+	font-size: 20px;
+}
+.input-group {
+	padding-right: 15px !important;
+	padding-left: 15px !important;;
+}
+.navbar-default{
+	background: #053d4e;
+}
+.navbar-default .navbar-brand{
+	color:#ffffff;
+}
+.cadastrar{
+	background: #f04e23;
+	border-color: #dc451d;
+}
+.cadastrar:hover, .cadastrar:active, .cadastrar:focus{
+	background: #ce421c;
+	border-color: #dc451d;
+}
+.form-cadastro{
+	border: 1px solid #ddd;
+    border-radius: 3px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.well {
+	margin-bottom: 0px;
+}

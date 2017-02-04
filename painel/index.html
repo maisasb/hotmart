@@ -1,0 +1,58 @@
+<html ng-app="app">
+    <head>
+        <title>Painel Administrativo - Login</title>
+        <meta charset="utf-8">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/estilo.css">
+        
+    </head>
+    <body style="background: #053d4e">
+        
+        <div ng-controller="loginController">    
+                           
+                <div class="row login">
+                   <div class="wrapper">
+                         <div class="form-group ">
+                            <div class="col-sm-12 titulo">
+                                <h3>Cadastro de endereço Hackathon</h3>
+                            </div>
+                          </div>
+                        <form class="form-horizontal" ng-submit="fazerLogin()">
+                          <div class="form-group ">
+                            
+                            <div class="col-sm-12 input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                              <input type="text" class="form-control" id="inputEmail3" placeholder="Email" ng-model="login.username" required>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            
+                            <div class="col-sm-12 input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                              <input type="password" class="form-control" id="inputPassword3" placeholder="Senha" ng-model="login.password" required>
+                            </div>
+                          </div>
+                          
+                          <div class="form-group">
+                            <div class="col-sm-12">
+                              <button type="submit" class="btn btn-default col-sm-12">Efetuar Login</button>
+                            </div>
+                          </div>
+                        </form>
+                        
+                    </div>
+                   
+                </div>
+                
+            </div>
+            
+            
+        </div>
+        
+        <script src="../js/angular/angular.min.js"></script>
+        <script src="../js/app.module.js"></script>
+        <script src="../js/login.controller.js"></script>
+
+    </body>
+</html>
