@@ -9,7 +9,7 @@ Teste para o processo seletivo da Hotmart
 
 http://localhost/hotmart/painel/
 
-Entre os dados:
+Entre com os dados:
 
 Login: desafio.front@hotmart.com.br
 
