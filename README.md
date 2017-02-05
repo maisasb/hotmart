@@ -9,8 +9,9 @@ Teste para o processo seletivo da Hotmart
 
 http://localhost/hotmart/painel/
 
-Entre com usuário e senha:
-desafio.front@hotmart.com.br
-123456
+Entre os dados:
+
+Login: desafio.front@hotmart.com.br
+Senha: 123456
 
 Caso tenha dúvida entre em contato: maisasb15@gmail.com
